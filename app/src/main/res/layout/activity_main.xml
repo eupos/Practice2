@@ -76,11 +76,18 @@
         android:layout_weight="4"
         android:orientation="vertical">
 
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnCount="4"
+            android:rowCount="5"
+            android:orientation="vertical">
+
+        </GridLayout>
+
 
     </LinearLayout>
-
-
-
 
 
 </LinearLayout>
