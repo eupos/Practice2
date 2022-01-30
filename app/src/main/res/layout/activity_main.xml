@@ -73,7 +73,7 @@
         android:background="#000"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_weight="5"
         android:orientation="vertical">
 
         <GridLayout
@@ -270,6 +270,44 @@
                 android:text="+"
                 android:layout_row="3"
                 android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnNull"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:text="0"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnComma"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:text="."
+                android:layout_row="4"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnResult"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:layout_gravity="fill"
+                android:layout_columnSpan="2"
+                android:text="="
+                android:layout_row="4"
+                android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
